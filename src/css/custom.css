@@ -210,3 +210,9 @@ html[data-theme="dark"] .table-of-contents__link--active code {
     display: block !important;
   }
 }
+
+/* Asciinema terminal */
+
+.asciinema-terminal {
+  font-family: "Fira Code", Consolas, Menlo, 'Bitstream Vera Sans Mono', monospace, 'Powerline Symbols';
+}

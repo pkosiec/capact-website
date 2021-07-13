@@ -22,7 +22,7 @@ const Homepage: FunctionComponent = () => {
       description={siteConfig.tagline}
     >
       <Head>
-        <script src="/js/asciinema-player.js"></script>
+        <script src="/asciinema/asciinema-player.js"></script>
       </Head>
       <Hero />
       <main>
