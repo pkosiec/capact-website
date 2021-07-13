@@ -5,6 +5,7 @@ import { KeyFeatures } from "../components/homepage/KeyFeatures";
 import { Hero } from "../components/homepage/Hero";
 import { WhatIs } from "../components/homepage/WhatIs";
 import { GetStarted } from "../components/homepage/GetStarted";
+import Head from "@docusaurus/Head";
 
 interface DocusaurusContext {
   siteConfig: {
@@ -20,6 +21,9 @@ const Homepage: FunctionComponent = () => {
       title={`${siteConfig.title} - ${siteConfig.tagline}`}
       description={siteConfig.tagline}
     >
+      <Head>
+        <script src="/js/termynal.js" data-termynal-container="#homepage-terminal"></script>
+      </Head>
       <Hero />
       <main>
         <WhatIs />
