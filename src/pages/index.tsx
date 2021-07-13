@@ -22,7 +22,7 @@ const Homepage: FunctionComponent = () => {
       description={siteConfig.tagline}
     >
       <Head>
-        <script src="/js/termynal.js" data-termynal-container="#homepage-terminal"></script>
+        <script src="/js/termynal.js" data-termynal-container="#termynal"></script>
       </Head>
       <Hero />
       <main>
