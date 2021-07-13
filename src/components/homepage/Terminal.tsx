@@ -3,10 +3,6 @@ import styles from "./Terminal.module.css";
 
 export const Terminal: FunctionComponent = () => {
     return (
-        <div className={styles.terminal} id="homepage-terminal" data-termynal>
-            <span data-ty="input">pip install spaCy</span>
-            <span data-ty="progress"></span>
-            <span data-ty>Successfully installed spacy</span>
-        </div>
+        <asciinema-player src="/js/425256.cast" cols="50" rows="10" loop preload poster="npt:0:03" font-size="medium"/>
     )
 }
